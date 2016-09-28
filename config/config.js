@@ -6,7 +6,7 @@ module.exports = {
     src : {
          host : process.env.IP || '0.0.0.0',
          port : process.env.PORT || 8080,
-         index : "./src/views/index.html",
+         index : "./src/views/html/index.html",
          paths : {
              "public": "./src/public", 
              css : "./src/public/css",
