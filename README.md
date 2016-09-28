@@ -5,3 +5,4 @@
 - Update package.json file
 - Install Bower globally
 - Update bower.json file
+- Install Gulp globally
