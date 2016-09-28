@@ -1,8 +1,8 @@
-//configuration settings
-var config = require(path.resolve("./config/config"));
-
 //path module
 var path = require("path");
+
+//configuration settings
+var config = require(path.resolve("./config/config"));
 
 //express.js module
 var express = require("express");
