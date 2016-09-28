@@ -13,3 +13,10 @@ var plugins = require("gulp-load-plugins")({
 
 //tasks
 gulp.task("src:styles", require("./gulptasks/src/styles")(gulp, plugins, config));
+gulp.task("browserSync", ["nodemon"], require("./gulptasks/src/browsersync")(plugins));
+gulp.task("nodemon", require("./gulptasks/src/nodemon")(plugins));
+gulp.task("watch", ['browserSync'], function(){
+    gulp.watch([config.sass + "/**/*.scss"], ["src:styles"]);
+    //gulp.watch("scss/*.scss", ['sass']);
+    gulp.watch("./src/views/*.html").on('change', plugins.browserSync.reload);
+});

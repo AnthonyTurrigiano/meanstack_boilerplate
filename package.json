@@ -13,6 +13,7 @@
   "devDependencies": {
     "autoprefixer": "^6.5.0",
     "bower": "^1.7.9",
+    "browser-sync": "^2.16.0",
     "cors": "^2.8.1",
     "express": "^4.14.0",
     "gulp": "^3.9.1",
