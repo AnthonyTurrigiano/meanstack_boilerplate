@@ -6,6 +6,9 @@ module.exports = {
     src : {
          host : process.env.IP || '0.0.0.0',
          port : process.env.PORT || 8080,
+         db : {
+             connection: "mongodb://0.0.0.0/boilerplate"
+         },
          index : "./src/views/html/index.html",
          paths : {
              "public": "./src/public", 
@@ -19,6 +22,9 @@ module.exports = {
     dist : {
          host : process.env.IP || '0.0.0.0',
          port : process.env.PORT || 8080,
+         db : {
+             connection: "mongodb://0.0.0.0/boilerplate"
+         },
          index : "./dist/views/index.html",
          paths : {
              "public": "./dist/public",

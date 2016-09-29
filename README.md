@@ -8,3 +8,13 @@
 - Install Gulp globally
 - Update meta information in html file(s)
 - Install nodemon globally
+- Install mongodb server
+
+        sudo apt-get install -y mongodb-org
+- Start mongo server 
+
+        mongod --nojournal
+- Update database name in config.js
+
+## Start Application
+npm start

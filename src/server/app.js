@@ -8,6 +8,9 @@ var config = require(path.resolve("./config/config"));
 var express = require("express");
 var app = express();
 
+//Database Connection
+require("./db/connect");
+
 //npm modules
 require("./lib/lib")(app);
 
