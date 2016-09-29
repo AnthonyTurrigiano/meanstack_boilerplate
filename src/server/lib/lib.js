@@ -5,4 +5,6 @@ module.exports = function(app){
     require("./modules/compression")(app);
     //cors
     require("./modules/cors")(app);
+    //bodyparser
+    require("./modules/bodyparser")(app);
 };
