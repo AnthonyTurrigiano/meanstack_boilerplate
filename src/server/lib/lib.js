@@ -7,4 +7,6 @@ module.exports = function(app){
     require("./modules/cors")(app);
     //bodyparser
     require("./modules/bodyparser")(app);
+    //express-session
+    require("./modules/session")(app);
 };

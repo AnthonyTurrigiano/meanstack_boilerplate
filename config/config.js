@@ -6,6 +6,11 @@ module.exports = {
     src : {
          host : process.env.IP || '0.0.0.0',
          port : process.env.PORT || 8080,
+         domain : process.env.C9_HOSTNAME || "https://localhost",
+         session: {
+           name : "mean-boilerplate-session",
+           secret : "thisisasecret",
+         },
          db : {
              connection: "mongodb://0.0.0.0/boilerplate"
          },
@@ -22,6 +27,11 @@ module.exports = {
     dist : {
          host : process.env.IP || '0.0.0.0',
          port : process.env.PORT || 8080,
+         domain : process.env.C9_HOSTNAME || "https://localhost",
+          session: {
+           name : "mean-boilerplate-session",
+           secret : "thisisasecret",
+         },
          db : {
              connection: "mongodb://0.0.0.0/boilerplate"
          },
