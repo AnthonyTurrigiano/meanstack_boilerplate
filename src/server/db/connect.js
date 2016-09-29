@@ -8,12 +8,13 @@ var config = require(path.resolve("./config/config"));
 var mongoose = require("mongoose");
 
 mongoose.connect(config.src.db.connection, function(err){
-    if(err)
+    if(err){
         console.log(err);
-    
-    console.log("*****************************************");
-    console.log("Successfully Connected to Database Server");
-    console.log("*****************************************");
+    } else {
+        console.log("*****************************************");
+        console.log("Successfully Connected to Database Server");
+        console.log("*****************************************");
+    }
 });
 
 module.exports = mongoose;
