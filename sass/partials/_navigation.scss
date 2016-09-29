@@ -1,0 +1,26 @@
+/**
+  * Navigation
+  */
+  
+  .navigation{
+      @extend .row;
+  }
+  
+  .navigation__inner{
+      @extend .container;
+      padding-left: 0;
+      padding-right: 0;
+  }
+  
+  .navigation__menu{
+      @extend .list-inline;
+      @extend .pull-right;
+  }
+  
+  .navigation__menu li{
+      
+  }
+  
+  .navigation__menu li a{
+      
+  }

@@ -1,0 +1,19 @@
+/**
+  * Base
+  */
+  
+  html{
+      font-size: 62.5%;
+  }
+  
+  body{
+      font-size: $font-size;
+      line-height: 1.625;
+      font-family: "Source Sans Pro";
+      font-weight: normal;
+  }
+  
+  html,
+  body{
+      height: 100%;
+  }

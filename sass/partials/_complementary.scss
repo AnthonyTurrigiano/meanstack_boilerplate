@@ -1,0 +1,10 @@
+/**
+  * Complementary
+  */
+  
+  .complementary{
+      @extend .col-xs-12;
+      @extend .col-sm-12;
+      @extend .col-md-4;
+      @extend .col-lg-4;
+  }

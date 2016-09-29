@@ -1,0 +1,11 @@
+/**
+  * Banner
+  */
+  
+  .banner{
+      @extend .row;
+  }
+  
+  .banner__inner{
+      @extend .container;
+  }

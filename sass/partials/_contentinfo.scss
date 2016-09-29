@@ -1,0 +1,11 @@
+/**
+  * Contentinfo
+  */
+  
+  .contentinfo{
+      @extend .row
+  }
+  
+  .contentinfo__inner{
+      @extend .container
+  }
