@@ -8,6 +8,8 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
+        <base href="/">
+        
         <link rel="stylesheet" href="./public/css/style.css">
         <title>Boilerplate</title>
     </head>
@@ -19,26 +21,10 @@
         
         <!-- wrapper -->
         <div class="wrapper">
-            
             <!-- banner -->
-            <header class="banner" role="banner">
-                <div class="banner__inner">
-                    <h1 class="banner__site-title h1">Banner</h1>
-                </div>
-            </header><!-- /banner -->
-            
+            <header class="banner" role="banner" ui-view="banner"></header><!-- /banner -->
             <!-- navigation -->
-            <nav class="navigation" role="navigation">
-                <div class="navigation__inner">
-                    <ul class="navigation__menu">
-                        <li><a href="#" title="">Link 1</a></li>
-                        <li><a href="#" title="">Link 2</a></li>
-                        <li><a href="#" title="">Link 3</a></li>
-                        <li><a href="#" title="">Link 4</a></li>
-                        <li><a href="#" title="">Link 5</a></li>
-                    </ul>
-                </div>  
-            </nav><!-- /navigation -->
+            <nav class="navigation" role="navigation" ui-view="navigation"></nav><!-- /navigation -->
             
             <!-- content -->
             <div class="content">
@@ -47,25 +33,17 @@
                 <div class="content__inner">
                     
                     <!-- main -->
-                    <main class="main" role="main">
-                        Main
-                    </main><!-- /main -->
+                    <main class="main" role="main" ui-view="main"></main><!-- /main -->
                     
                     <!-- complementary -->
-                    <aside class="complementary" role="complementary">
-                        Complementary
-                    </aside><!-- /complementary -->
+                    <aside class="complementary" role="complementary" ui-view="complementary"></aside><!-- /complementary -->
                 
                 </div><!-- /content-inner -->
                 
             </div><!-- /content -->
             
             <!-- contentinfo -->
-            <footer class="contentinfo" role="contentinfo">
-                <div class="contentinfo__inner">
-                    Contentinfo
-                </div>
-            </footer><!-- /contentinfo -->
+            <footer class="contentinfo" role="contentinfo" ui-view="contentinfo"></footer><!-- /contentinfo -->
             
         </div><!-- /wrapper -->
         

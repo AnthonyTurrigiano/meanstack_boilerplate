@@ -16,6 +16,7 @@ require("./lib/lib")(app);
 
 //static files
 app.use("/public", express.static(path.resolve(config.src.paths.public)));
+app.use("/views", express.static(path.resolve("./src/views")));
 app.use("/client", express.static(path.resolve(config.src.paths.client)));
 
 //routes

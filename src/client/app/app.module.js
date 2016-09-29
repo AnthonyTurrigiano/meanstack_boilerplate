@@ -2,6 +2,14 @@
     
     "use strict";
     
-    angular.module( "app", [] );
+    angular.module( "app", [
+            "ui.router",
+            "banner",
+            "navigation",
+            "main",
+            "article",
+            "complementary",
+            "contentinfo"
+        ] );
     
 })(angular);
