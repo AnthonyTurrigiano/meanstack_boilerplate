@@ -21,7 +21,8 @@ module.exports = {
              js : "./src/public/js",
              client : "./src/client",
              img : "./src/public/img",
-             fonts : "./src/public/fonts"
+             fonts : "./src/public/fonts",
+             lib : "./src/public/lib"
          }
     },
     dist : {
@@ -42,7 +43,7 @@ module.exports = {
              js : "./dist/public/js",
              client : "./dist/client",
              img : "./dist/public/img",
-             fonts: "./dist/public/fonts"
+             fonts: "./dist/public/fonts",
          }
     },
 };
