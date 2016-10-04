@@ -22,7 +22,8 @@ module.exports = {
              client : "./src/client",
              img : "./src/public/img",
              fonts : "./src/public/fonts",
-             lib : "./src/public/lib"
+             lib : "./src/public/lib",
+             views : "./src/views"
          }
     },
     dist : {
@@ -44,6 +45,7 @@ module.exports = {
              client : "./dist/client",
              img : "./dist/public/img",
              fonts: "./dist/public/fonts",
+             views : "./dist/views"
          }
     },
 };

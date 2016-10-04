@@ -13,8 +13,8 @@
         sudo apt-get install -y mongodb-org
 - Start mongo server 
 
-        mongod --nojournal
+        npm run mongo
 - Update database name in config.js
 
 ## Start Application
-npm start
+npm start (when running npm start mongo server is automatically started as well)
