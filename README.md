@@ -11,6 +11,7 @@
 - Install nodemon globally
 - Install npm-check globally
 - Install nsp globally
+- Install snyk globally
 - Install mongodb server
 
         sudo apt-get install -y mongodb-org
