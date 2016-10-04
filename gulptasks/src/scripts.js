@@ -13,6 +13,8 @@ module.exports = function(gulp, plugins, config){
                             ]
                         )
                         .pipe(plugins.cache())
+                        .pipe(plugins.jshint())
+                        .pipe(plugins.jshint.reporter('jshint-stylish'))
                         .pipe(plugins.sourcemaps.init())
                         .pipe(plugins.concat("app.js"))
                         .pipe(plugins.ngAnnotate())
