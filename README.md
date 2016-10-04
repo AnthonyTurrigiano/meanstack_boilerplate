@@ -8,6 +8,7 @@
 - Install Gulp globally
 - Update meta information in html file(s)
 - Install nodemon globally
+- Install npm-check globally
 - Install mongodb server
 
         sudo apt-get install -y mongodb-org
@@ -15,6 +16,10 @@
 
         npm run mongo
 - Update database name in config.js
+
+- To check if there are any npm packages that are outdated 
+
+        npm run check-updates
 
 ## Start Application
 npm start (when running npm start mongo server is automatically started as well)

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp watch &amp; npm run mongo",
-    "mongo": "mongod --nojournal"
+    "mongo": "mongod --nojournal",
+    "check-updates" : "npm-check -u"
   },
   "keywords": [],
   "author": "",
@@ -30,6 +31,7 @@
     "gulp-postcss": "^6.2.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.6.0",
+    "npm-check": "^5.2.3",
     "postcss-font-magician": "^1.4.0"
   },
   "dependencies": {
