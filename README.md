@@ -1,6 +1,5 @@
 # Mean Stack Boilerplate
-[![Known Vulnerabilities](https://snyk.io/test/github/snyk/goof/badge.svg)](https://snyk.io/test/github/snyk/goof)
-
+[![Known Vulnerabilities](https://snyk.io/test/npm/name/badge.svg)](https://snyk.io/test/npm/name)
 ## Configuration
 - Update Heading in README.md
 - Update package.json file
