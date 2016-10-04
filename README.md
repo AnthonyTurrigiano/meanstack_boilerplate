@@ -1,4 +1,5 @@
 # Mean Stack Boilerplate
+[![Known Vulnerabilities](https://snyk.io/test/github/snyk/goof/badge.svg)](https://snyk.io/test/github/snyk/goof)
 
 ## Configuration
 - Update Heading in README.md

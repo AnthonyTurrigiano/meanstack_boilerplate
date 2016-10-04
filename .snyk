@@ -1,0 +1,21 @@
+version: v1.5.2
+ignore:
+  'npm:connect:20130701':
+    - browser-sync > browser-sync-ui > weinre > express > connect:
+        reason: None given
+        expires: '2016-11-03T13:52:15.509Z'
+patch:
+  'npm:negotiator:20160616':
+    - browser-sync > socket.io > engine.io > accepts > negotiator:
+        patched: '2016-10-04T13:49:16.529Z'
+  'npm:request:20160119':
+    - browser-sync > localtunnel > request:
+        patched: '2016-10-04T13:49:16.529Z'
+  'npm:tough-cookie:20160722':
+    - browser-sync > localtunnel > request > tough-cookie:
+        patched: '2016-10-04T13:49:16.529Z'
+  'npm:ws:20160624':
+    - browser-sync > socket.io > socket.io-client > engine.io-client > ws:
+        patched: '2016-10-04T13:49:16.529Z'
+    - browser-sync > socket.io > engine.io > ws:
+        patched: '2016-10-04T13:49:16.529Z'
