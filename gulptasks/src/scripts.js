@@ -12,6 +12,7 @@ module.exports = function(gulp, plugins, config){
                             config.src.paths.js + "/**/*.js",
                             ]
                         )
+                        .pipe(plugins.cache())
                         .pipe(plugins.sourcemaps.init())
                         .pipe(plugins.concat("app.js"))
                         .pipe(plugins.ngAnnotate())
