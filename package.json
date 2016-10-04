@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "gulp watch &amp; npm run mongo",
     "mongo": "mongod --nojournal",
-    "check-updates": "npm-check -u"
+    "check-updates": "npm-check -u",
+    "nsp" : "nsp check",
   },
   "keywords": [],
   "author": "",

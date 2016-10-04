@@ -9,6 +9,7 @@
 - Update meta information in html file(s)
 - Install nodemon globally
 - Install npm-check globally
+- Install nsp globally
 - Install mongodb server
 
         sudo apt-get install -y mongodb-org
