@@ -6,7 +6,10 @@ var gulp = require("gulp");
 
 //Require gulp load plugins module
 var plugins = require("gulp-load-plugins")({
-    rename : {"postcss-font-magician" : "fontMagician"},
+    rename : {
+            "postcss-font-magician" : "fontMagician",
+            "gulp-cached" : "cache"
+            },
     pattern : ["*"]
 });
 
