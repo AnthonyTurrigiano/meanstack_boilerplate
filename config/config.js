@@ -23,8 +23,14 @@ module.exports = {
              img : "./src/public/img",
              fonts : "./src/public/fonts",
              lib : "./src/public/lib",
-             views : "./src/views"
-         }
+             views : "./src/views",
+             icons: {
+                 fontAwesome : {
+                     fonts : "./node_modules/font-awesome/fonts"
+                 }
+             }
+         },
+         
     },
     dist : {
          host : process.env.IP || '0.0.0.0',
