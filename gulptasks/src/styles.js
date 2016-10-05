@@ -8,7 +8,7 @@ module.exports = function(gulp, plugins, config){
     return function(){
         return gulp
                     .src(config.sass + "/**/*.scss")
-                    .pipe(plugins.cache())
+                    //.pipe(plugins.cache())
                     .pipe(plugins.sass().on('error', plugins.sass.logError))
                     .pipe(plugins.postcss(processors))
                     .pipe(gulp.dest(config.src.paths.css));
